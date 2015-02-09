@@ -1,0 +1,27 @@
+{
+  "name": "iport",
+  "main": "./index.js",
+  "version": "0.0.1",
+  "description": "honeycomb的runner",
+  "author": {
+    "name": "继风",
+    "email": "jifeng.zjd@alibaba-inc.com"
+  },
+  "dependencies": {
+    "coffee-script": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "jscover": "*",
+    "expect.js": "*",
+    "supertest": "*",
+    "istanbul": "*",
+    "request": "2.27.0"
+  },
+  "engines": {
+    "node": ">=0.8.14"
+  },
+  "scripts": {
+    "test": "make test"
+  }
+}
