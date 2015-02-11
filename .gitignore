@@ -1,0 +1,8 @@
+/node_modules/
+/etc/config.yaml
+/run/*
+
+/out/test
+/coverage.html
+/nohup.out
+/logs/
