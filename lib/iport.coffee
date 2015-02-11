@@ -8,9 +8,9 @@ exports.middleware = ()->
     port = getPort(req)
 
     #现在使用的方式是模拟req.socket._getpeername方法
-    #nodejs源码:https://github.com/joyent/node/blob/d8baf8a2a4481940bfed0196308ae6189ca18eee/lib/net.js#L584
+    #nodejs源码: https://github.com/joyent/node/blob/d8baf8a2a4481940bfed0196308ae6189ca18eee/lib/net.js#L584
     req.socket._getpeername = ()->
-    	{address: ip, port: port}
+    	{ address: ip, port: port }
     next()
 
 exports.getIP = getIP = (req)->

@@ -16,7 +16,7 @@
     "expect.js": "*",
     "supertest": "*",
     "istanbul": "*",
-    "request": "2.27.0"
+    "connect": "*"
   },
   "engines": {
     "node": ">=0.8.14"
