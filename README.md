@@ -44,5 +44,5 @@ server.listen(1723);
 ### 讲解
 
 - ip和port的获取规则: http headers -> http -> tcp
-- headers的默认头信息 `x-forwarded-for-port` 和 `x-forwarded-for-port`
+- headers的默认头信息 `x-forwarded-for` 和 `x-forwarded-for-port`
 
